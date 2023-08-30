@@ -17,6 +17,7 @@ CREATE TABLE Hecho_Movimiento (
 ID_Fecha INT,
 ID_Producto_DWH INT,
 ID_Proveedor_DWH INT,
+ID_Cliente_DWH INT,
 ID_Tipo_transaccion_DWH INT,
 Cantidad INT,
-PRIMARY KEY(ID_Fecha, ID_Producto_DWH, ID_Proveedor_DWH, ID_Tipo_transaccion_DWH));
+PRIMARY KEY(ID_Fecha, ID_Producto_DWH, ID_Proveedor_DWH, ID_Cliente_DWH, ID_Tipo_transaccion_DWH));
