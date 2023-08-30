@@ -14,7 +14,7 @@ NombreCategoria VARCHAR(20),
 PRIMARY KEY(ID_Cliente_DWH));
 
 CREATE TABLE Hecho_Movimiento (
-ID_Fecha VARCHAR(20),
+ID_Fecha INT,
 ID_Producto_DWH INT,
 ID_Proveedor_DWH INT,
 ID_Tipo_transaccion_DWH INT,
